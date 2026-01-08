@@ -1,0 +1,150 @@
+body {
+  font-family: Inter, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+}
+
+.header {
+  background: #111827;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.product-card .availability span {
+  color: #dc2626; /* red */
+  font-weight: 600;
+}
+
+.product-card .rating {
+  color: #f59e0b; /* gold */
+  font-weight: 600;
+}
+
+.product-card .title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  margin: 4px 0 0px;
+}
+
+.product-card .brand {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.product-card .brand span {
+  font-weight: 500;
+  color: #111827;
+}
+
+.product-card .delivery,
+.product-card .warranty {
+  font-size: 11px;
+  color: #4b5563;
+}
+
+.product-card .delivery span,
+.warranty span {
+  font-weight: 500;
+  color: #111827;
+}
+.product-card .price {
+  font-size: 15px;
+  font-weight: 700;
+  color: #16a34a;
+  margin-top: 5px;
+}
+.product-card .Reviewsbtn {
+  margin-top: auto;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.product-card .Reviewsbtn:hover {
+  background: #12833c;
+}
+
+.product-card button {
+  margin-top: auto;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.product-card button:hover {
+  background: #1e40af;
+}
+.reviews-section {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.review {
+  margin-bottom: 8px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+.review span:nth-of-type(1) {
+  font-size: 12px;
+}
+.review p {
+  font-size: 12px;
+}
+.review .subrev {
+  display: flex;
+  justify-content: space-between;
+}

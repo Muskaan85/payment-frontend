@@ -1,12 +1,15 @@
-import PayButton from "./PayButton";
+// App.js
+import Header from "./components/Header";
+import ProductList from "./components/ProductList";
+import Cart from "./components/Cart";
+import "./styles/app.css";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h2>Cashfree Payment</h2>
-      <PayButton />
-    </div>
+    <>
+      <Header />
+      <ProductList />
+      <Cart />
+    </>
   );
 }
-
-export default App;

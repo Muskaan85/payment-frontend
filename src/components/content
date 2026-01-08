@@ -1,0 +1,129 @@
+Array(4) [ {…}, {…}, {…}, {…} ]
+​
+0: Object { id: 186, title: "Calvin Klein Heel Shoes", description: "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.", … }
+​​
+availabilityStatus: "In Stock"
+​​
+brand: "Calvin Klein"
+​​
+category: "womens-shoes"
+​​
+description: "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble."
+​​
+dimensions: Object { width: 29.12, height: 20.94, depth: 20.65 }
+​​​
+depth: 20.65
+​​​
+height: 20.94
+​​​
+width: 29.12
+​​​
+<prototype>: Object { … }
+​​
+discountPercentage: 3.19
+​​
+id: 186
+​​
+images: Array(4) [ "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp", "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/2.webp", "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/3.webp", … ]
+​​​
+0: "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp"
+​​​
+1: "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/2.webp"
+​​​
+2: "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/3.webp"
+​​​
+3: "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/4.webp"
+​​​
+length: 4
+​​​
+<prototype>: Array []
+​​
+meta: Object { createdAt: "2025-04-30T09:41:02.054Z", updatedAt: "2025-04-30T09:41:02.054Z", barcode: "0196443645959", … }
+​​​
+barcode: "0196443645959"
+​​​
+createdAt: "2025-04-30T09:41:02.054Z"
+​​​
+qrCode: "https://cdn.dummyjson.com/public/qr-code.png"
+​​​
+updatedAt: "2025-04-30T09:41:02.054Z"
+​​​
+<prototype>: Object { … }
+​​
+minimumOrderQuantity: 6
+​​
+price: 79.99
+​​
+rating: 4.92
+​​
+returnPolicy: "60 days return policy"
+​​
+reviews: Array(3) [ {…}, {…}, {…} ]
+​​​
+0: Object { rating: 5, comment: "Great value for money!", date: "2025-04-30T09:41:02.054Z", … }
+​​​​
+comment: "Great value for money!"
+​​​​
+date: "2025-04-30T09:41:02.054Z"
+​​​​
+rating: 5
+​​​​
+reviewerEmail: "maya.reed@x.dummyjson.com"
+​​​​
+reviewerName: "Maya Reed"
+​​​​
+<prototype>: Object { … }
+​​​
+1: Object { rating: 5, comment: "Great value for money!", date: "2025-04-30T09:41:02.054Z", … }
+​​​
+2: Object { rating: 1, comment: "Not as described!", date: "2025-04-30T09:41:02.054Z", … }
+​​​​
+comment: "Not as described!"
+​​​​
+date: "2025-04-30T09:41:02.054Z"
+​​​​
+rating: 1
+​​​​
+reviewerEmail: "eleanor.collins@x.dummyjson.com"
+​​​​
+reviewerName: "Eleanor Collins"
+​​​​
+<prototype>: Object { … }
+​​​
+length: 3
+​​​
+<prototype>: Array []
+​​
+shippingInformation: "Ships in 1 week"
+​​
+sku: "WOM-CAL-CAL-186"
+​​
+stock: 93
+​​
+tags: Array [ "footwear", "heel shoes" ]
+​​​
+0: "footwear"
+​​​
+1: "heel shoes"
+​​​
+length: 2
+​​​
+<prototype>: Array []
+​​
+thumbnail: "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/thumbnail.webp"
+​​
+title: "Calvin Klein Heel Shoes"
+​​
+warrantyInformation: "2 year warranty"
+​​
+weight: 6
+​​
+<prototype>: Object { … }
+​
+1: Object { id: 187, title: "Golden Shoes Woman", description: "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.", … }
+​
+2: Object { id: 188, title: "Pampi Shoes", description: "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.", … }
+​
+3: Object { id: 189, title: "Red Shoes", description: "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.", … }
+​
+length: 4
