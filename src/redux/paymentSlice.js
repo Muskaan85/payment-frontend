@@ -5,7 +5,6 @@ export const createOrder = createAsyncThunk(
   "payment/createOrder",
   async ({ amount, email }) => {
     const res = await axios.post(
-      // "https://payment-backend-production-35fa.up.railway.app/payment/create-order"
       "https://7s9k5n-8000.csb.app/payment/create-order",
       null,
       { params: { amount, email } }
